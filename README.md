@@ -51,6 +51,16 @@ Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in q
 
 Developed by:shaiklahir RegisterNumber:24005737
 
+      8:3 ENCODER
+      
+      odmule enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
+      input y0,y1,y2,y3,y4,y5,y6,y7;
+      output a,b,c;
+      assign a= ( y4 | y5 | y6 | y7);
+      assign b= ( y2 | y3 | y6 | y7);
+      assign c= ( y1 | y3 | y5 | y7);
+      endmodule
+
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 ![Screenshot 2024-11-15 142736](https://github.com/user-attachments/assets/8759b4ed-5b77-49df-975e-ec565ed99677)
 
