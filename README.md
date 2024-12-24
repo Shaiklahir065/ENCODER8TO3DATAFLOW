@@ -68,7 +68,7 @@ Developed by:shaiklahir RegisterNumber:24005737
 ![min_enc](https://github.com/user-attachments/assets/612ebd1f-33f5-41ce-8c4c-add9b52fb8bd)
 
 **RESULTS**
-Thus the Half and Full Adders are studied and the truth tables are verified.
+Thus the ENCODER 8TO3 DATAFLOW Modelling are studied and the truth tables are verified.
 
 
 
